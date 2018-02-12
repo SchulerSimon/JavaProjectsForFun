@@ -24,6 +24,6 @@ public class Adler32 {
 			b = (b + a) % MOD_ADLER;
 		}
 
-	System.out.println(Integer.toHexString((b << 16) | a).toUpperCase());
+	System.out.println("0x" + Integer.toHexString((b << 16) | a).toUpperCase());
 	}
 }
